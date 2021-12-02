@@ -5,7 +5,7 @@ module.exports = function(app, db) {
             if (err) {
                 res.send({'error': 'An error has occured'});
             } else {
-                res.send(resuly.ops[0])
+                res.send(result.ops[0])
             }
         })
     });
